@@ -1,0 +1,6 @@
+console.log("Olá, mundo!")
+alert("Olá, mundo!")
+window.alert("Introdução ao JavaScript")
+alert("Criando script")
+window.confirm("Qual é o nivel do seu indução?")
+window.prompt("Está gostando do js?")
