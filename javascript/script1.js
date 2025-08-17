@@ -3,6 +3,4 @@ alert("Olá, mundo!")
 window.alert("Introdução ao JavaScript")
 alert("Criando script")
 window.confirm("Qual é o nivel do seu indução?")
-window.prompt("Está gostando do js?")
-
-/*Tipos de dados*/
+window.prompt("Qual ´é o seu nome  ")

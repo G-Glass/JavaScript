@@ -1,0 +1,1 @@
+var valor1 = prompt("Se a soma ")
