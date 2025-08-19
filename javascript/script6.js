@@ -1,1 +1,2 @@
-var valor1 = prompt("Se a soma ")
+var valor1 = prompt("Qual é o número?")
+var valor2 = prompt("Outro numero")
