@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+    background-color: wheat;
+    color: white;
+}
+div.container,h1 ,div img,div.img {
+    border-radius: 10px;
+    padding: 5px;
+}
+h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 10px;
+    width: 90%;
+}
+div.container {
+    background-color: black;
+    display: grid;
+    grid-template: auto 1fr 1fr / 1fr;
+    gap: 5px;
+    place-content: center;
+    place-items: center;
+}
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+div.img {
+    background-color: wheat;
+    width: 90%;
+}
+div img {
+    background-color: gold;
+}

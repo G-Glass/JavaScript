@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script18</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        h1 {
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: white;
+        }
+        h3 {
+            text-align: center;
+        }
+        div.container {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        input, button {
+            border-radius: 5px;
+            font-weight: bolder;
+        }
+        div.principal {
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            background-color: rgb(19, 75, 75);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        img.img1 {
+            display: none;
+            align-self: center;
+        }
+        img.img2 {
+            display: none;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Script18</h1>
+    <div class="container">
+        <h3>Analisando dados</h3>
+        <div class="principal">
+            <div>
+                <input type="text" name="none" id="nomear" placeholder="Digite o seu nome">
+                <button onclick="cl()">Verificar</button>
+            </div>
+            <p class="resulta"></p>
+            <img src="light.png" width="50%" height="50%" alt="" class="img1">
+            <img src="moon.png" width="50%" height="50%" alt="" class="img2">
+        </div>
+    </div>
+    <script src="script18.js"></script>
+</body>
+</html>
