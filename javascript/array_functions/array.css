@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: rgb(44, 25, 44);
+    border-radius: 10px;
+    padding: 10px;text-align: center;
+
+}
+h2 {
+    background-color: black;
+    padding: 5px;
+    border: 2px solid ;
+    border-radius: 40px;
+    border-color: rgb(85, 30, 30) red purple blueviolet;
+}
+.principal {
+    background-color: rgba(0, 0, 0, 0.541);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(67, 88, 79) red purple darkgoldenrod;
+}
+input {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    border: 1px solid transparent;
+    border-color: rgb(112, 112, 221) gold red wheat;
+    border-radius: 5px;
+}

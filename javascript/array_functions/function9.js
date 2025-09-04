@@ -9,4 +9,4 @@ let a =  function num(e,r) {
     
 }
 let x = a(i,s)
-console.log(`O resultado é ${x}`)
+console.log(`O resultado é ${x}`) 
