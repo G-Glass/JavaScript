@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Script20</title>
+</head>
+<style>
+    body {
+        background-color: wheat;
+    }
+    .container {
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .item {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .input {
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 2px;
+    }
+    
+    #valores, #valores2 {
+        width: 70px;
+    }
+    .Calculador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        margin: 10px;
+        padding: 10px ;
+        border-radius: 10px;
+    }
+    
+    .inputi {
+        width: 50px;
+        border-radius: 5px;
+    }
+    .resumo {
+        background-color: wheat;
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .idade {
+        margin-top: 20px;
+        background-color: whitesmoke;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .visao {
+        background-color: wheat;
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    .visao input {
+        margin: 3px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="item">
+            <h4>Calculador web</h4>
+            <div class="Calculador">
+                <input type="number" name="valor" id="valores" class="input" >
+                <input type="button" value="+" onclick="adicionar()">
+                <input type="number" name="valor2" id="valores2" class="input" >
+                <input type="button" value="Calcular" class="input"  onclick="calcular()" >
+            </div>
+            <div>
+                <p id="soma"></p>
+            </div>
+            <div class="idade">
+                <h4>Veja a sua idade desde o seu ano de nascimento</h4>
+                <p>Olá, vamos calcular a sua idade e ver quantos anos tem actualmente. </p>
+                <div class="visao">
+                    <label for="ano">Em que ano nasceu</label>
+                    <input type="number" name="anos" id="ano" class="inputi" >
+                    <input type="button" value="Verificar" class="input" onclick="verificador()">
+                </div>
+                <p class="responde"></p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="skills.js"></script>
+</body>
+</html>

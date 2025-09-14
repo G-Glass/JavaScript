@@ -7,6 +7,5 @@ while (numero <= 7){
  var numero = 1
 do {
     console.log(` passo ${numero}`)
-    numero++
 }
 while (numero <= 6)
