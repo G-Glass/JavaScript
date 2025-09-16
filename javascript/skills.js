@@ -12,4 +12,8 @@ function verificador() {
     var idade = ano.getFullYear()
     var calculo = idade - Number(valor.value)
     responde.innerHTML = ` Voce nasceu em ${valor.value} e hoje tem ${calculo} anos `
+
+    /*if (idade == 2025) {
+        responde.innerHTML =+ `Estamos em ${idade.value}`
+    }*/
 }

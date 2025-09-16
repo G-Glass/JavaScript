@@ -72,6 +72,23 @@
     .visao input {
         margin: 3px;
     }
+    .let {
+        margin-top: 55px;
+        background-color: wheat;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .let input {
+        border-radius: 5px;
+        align-self: center;
+    }
+    .let div {
+        margin: 10px;
+    }
 
 </style>
 <body>
@@ -96,12 +113,41 @@
                     <input type="number" name="anos" id="ano" class="inputi" >
                     <input type="button" value="Verificar" class="input" onclick="verificador()">
                 </div>
+                
                 <p class="responde"></p>
+            </div>
+            <h3>Time-Skills</h3>
+            <div>
+                <div class="time"></div>
+                <div class="tempo"></div>
+                <div class="volta"></div>
+                <div class="while"></div>
+            </div>
+            <div class="let">
+                <h3>Variavel let</h3>
+                <div>
+                    <label for="inicio">Inicio</label>
+                    <input type="number" name="start" id="inicio" class="one">
+                </div>
+                <div>
+                    <label for="passo">Passos</label>
+                    <input type="number" name="pass" id="passo" class="two">
+                </div>
+                <div>
+                    <label for="fim">Fim</label>
+                    <input type="number" name="end" id="fim" class="tree">
+                </div>
+                <input type="button" value="Verificar" onclick="ver()">
+                <div>
+                    <p class="resulta"></p>
+                </div>
             </div>
         </div>
         
     </div>
 
     <script src="skills.js"></script>
+    <script src="script22.js"></script>
+    <script src="script23.js"></script>
 </body>
 </html>

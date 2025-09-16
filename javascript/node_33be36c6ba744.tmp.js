@@ -1,4 +1,3 @@
-//ESTRUTURA DE REPETIÇÃO whie e do
 console.log('Olá,')
 var n = new Date()
 var dia = n.getDate()
@@ -51,8 +50,7 @@ console.log(`Hoje é  dia  ${dia} do mes de ${mes} do ano de ${ano}`)
 if (dia == 15 ) {
     console.log(`Tenha um bom dia`)
 }
-var n = 1
-while (n <= 4) {
-    console.log(`Ano nove ${n}`)
-    n++
+while (mes == 8) {
+    console.log(`Ano nove`)
+    mes*5
 }
