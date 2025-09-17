@@ -16,7 +16,7 @@ var time = document.querySelector(".time")
 var volta = document.querySelector(".volta")
 time.innerHTML=`${hora}:${min}:${segundo}`
 tempo.innerHTML=`${hora} horas ${temporeal} minutos e ${segundoreal} segundos`
-
+3
 
 
 /*for ( var segundo = 0; segundo <= 59; segundo++ ) {

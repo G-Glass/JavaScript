@@ -46,6 +46,7 @@ function ver() {
         resto.innerHTML = "Contando: "; 
         
         function exibirProximo() {
+            //Contagem crescente
             if (n <= f) {
                 // Adiciona o próximo número ao conteúdo existente
                 resto.innerHTML += `${n} \u{1F600} `; 
@@ -53,8 +54,25 @@ function ver() {
                 
                 // Chama a próxima exibição com um pequeno atraso (ex: 200 milissegundos)
                 setTimeout(exibirProximo, 200); 
+
+                
+                
             }
+        
+            //Contagem regressiva
+            else { for(let n = i ; n >= f; n -= p ) {
+                    resto.innerHTML += `${n} \u{1f614} `
+                }
+
+                //Anuncia o fim da contagem
+                if ( n > p) {
+
+                    resto.innerHTML += `Fim da contagem`
+                }
+            }
+
         }
+        
         
         exibirProximo(); // Inicia a primeira exibição
     }
