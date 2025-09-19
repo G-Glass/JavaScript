@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuata</title>
+    <style>
+        body {
+            background-color: darkolivegreen;
+        }
+        .container {
+            background-color: wheat;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora</h2>
+        <div>
+            <input type="number" name="num" id="valor" size="12">
+            <select name="selecione" id="somas">
+                <option value="mais" selected><strong>+</strong></option>
+                <option value="menus"><strong>-</strong></option>
+                <option value="vezes" id="×"><strong>×</strong></option>
+                <option value="dividir"><strong>÷</strong></option>
+            </select>
+            <input type="number" name="mero" id="valor2" size="12">
+            <input type="button" value="Calcular" onclick="cal()">
+            <select name="res" id="tudo" size=""></select>
+        </div>
+    </div>
+
+    <script src="tab.js"></script>
+</body>
+</html>
