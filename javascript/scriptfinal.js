@@ -5,6 +5,13 @@ let item = document.createElement('option')
 let all = document.querySelector(".tudo")
 let v = Number(valor.value)
 
+if (selet.value == 'add') {
+    add()
+} else if (selet.value == 'exibi') {
+    exibi()
+} else {
+    alert('Escolha uma ação')
+}
 function add() {
     item.text = `Adicionado ${valor}`
     valor.appendChild(item)
