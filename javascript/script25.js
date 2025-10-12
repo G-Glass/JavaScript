@@ -9,6 +9,7 @@ num.push(1,2)
 num.sort()  // ordena os elementos no variavel de forma crescente 
 console.log(`O nosso vetor é ${num} e tem ${num.length} posições `)
 
+
 for (let v = 0; v <= num.length ; v ++) {
     console.log(` A posição  ${v} tem ${num[v]}`)
 }
