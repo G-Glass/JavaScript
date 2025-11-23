@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(169, 169, 197, 0.911);
+}
+.Main {
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+table {
+    padding: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr, th {
+    border-radius: 5px; 
+    border: 1px solid;
+    padding: 5px;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.divi {
+    overflow-x: auto;
+}

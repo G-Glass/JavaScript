@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container1 {
+    border-radius: 12px;
+    padding: 20px;
+    margin-inline: 10px;
+    background-color: rgb(47, 11, 61);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.edemo {
+    background: linear-gradient(to right,blue,purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    box-shadow: 2px -1px;
+    margin: 20px;
+}
+.entrar {
+    margin: 20px;
+}
+.titulo {
+    margin: 15px;
+    font-size: large;
+}
+.endreso {
+    text-align: left;
+    margin-bottom: 3px;
+}
+.input_email {
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.input_submit {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 8px;
+    background-color: blue;
+    padding: 4px;
+    font-weight: bold;
+}
+.ou {
+    margin: 15px;
+}
+.lista {
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
