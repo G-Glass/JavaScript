@@ -1,0 +1,29 @@
+body {
+    background-color: oklab(93.906% 0.00262 -0.00911);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    text-align: center;
+    margin: 5px;
+    padding: 7px;
+}
+
+input:single-button {
+    background-color: #fff;
+}
+
+p {
+    font-size: 1em;
+}
+.retorna {
+    display: none;
+}
+.responde {
+    display: none;
+}

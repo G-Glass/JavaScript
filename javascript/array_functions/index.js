@@ -1,13 +1,16 @@
 let valor = document.querySelector("#valor1")
 let resposta = document.querySelector("#recebe")
 
-let v1 = Number(valor.value)
+let v1 = Number(valor.textContent)
 let r = resposta
 
-function analise() {
-    return  v1*23
+function analise(v) {
+    let m = 55
+    let res = v1 + m
+    return res
     
 
     
 }
-r.innerHTML = ` Os valores são dois ${}`
+analise(77)
+r.innerHTML = ` Os valores são dois ${analise}`
